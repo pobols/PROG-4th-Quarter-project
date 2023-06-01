@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dropdown Menu Responsive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <style>
+      #home {
+         color: #8e011f;
+         font-size: 2.8em;
+         margin-left: 7%;
+         width: 60%;
+         margin-top: 4%;
+      }
+
+      h2.catch{
+         margin-bottom: 2%;
+         color: #de214a;
+      }
+
+      .secondary{
+         font-size: 70%;
+      }
+
+
+      .phrase {
+         font-size: 85%;
+         margin: 0;
+      }
+
+
+   </style>
+</head>
+<body>
+
+  <!-- header start -->
+  <header class="header">
+     <div class="container">
+        <div class="header-main">
+           <div class="logo">
+              <a href="#">CoJourney</a>
+           </div>
+           <div class="open-nav-menu">
+              <span></span>
+           </div>
+           <div class="menu-overlay">
+           </div>
+           <!-- navigation menu start -->
+           <nav class="nav-menu">
+             <div class="close-nav-menu">
+                <img src="close.png" alt="close" id="close-btn">
+             </div>
+             <ul class="menu">
+                <li class="menu-item menu-item-has-children">
+                   <a href="#" data-toggle="sub-menu">Home <i class="plus"></i></a>
+                   <ul class="sub-menu">
+                       <li class="menu-item"><a href="#">Home 1</a></li>
+                       <li class="menu-item"><a href="#">Home 2</a></li>
+                       <li class="menu-item"><a href="#">Home 3</a></li>
+                       <li class="menu-item"><a href="#">Home 4</a></li>
+                   </ul>
+                </li>
+                <li class="menu-item">
+                   <a href="#">About</a>
+                </li>
+                <li class="menu-item">
+                   <a href="#">Services</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                   <a href="#" data-toggle="sub-menu">Pages <i class="plus"></i></a>
+                   <ul class="sub-menu">
+                       <li class="menu-item"><a href="#">page 1</a></li>
+                       <li class="menu-item"><a href="#">page 2</a></li>
+                       <li class="menu-item"><a href="#">page 3</a></li>
+                       <li class="menu-item"><a href="#">page 4</a></li>
+                   </ul>
+                </li>
+                <li class="menu-item">
+                   <a href="#">News</a>
+                </li>
+                <li class="menu-item">
+                   <a href="#">Contact</a>
+                </li>
+             </ul>
+           </nav>
+           <!-- navigation menu end -->
+        </div>
+     </div>
+  </header>
+  <!-- header end -->
+
+ <!-- home section start -->
+ <main class="home-section">
+   <section id="home">
+      <h2 class="catch">Embark on an Unforgettable Journey:<span class="secondary"> Celebrate Your Debut in Style!</span></h2>
+      <p class="phrase">Create memories that will last a lifetime. Let us help you celebrate your debut in the most extraordinary way.</p>
+    </section>
+ </main>
+ <!-- home section end -->
+ <footer>
+   <p>&copy; 2023 CoJourney</p>
+ </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
